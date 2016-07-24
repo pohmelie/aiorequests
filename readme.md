@@ -2,7 +2,7 @@
 [requests](https://github.com/kennethreitz/requests) wrapper for asyncio (based on [run_in_executor](https://docs.python.org/3/library/asyncio-eventloop.html?highlight=run_in_executor#asyncio.BaseEventLoop.run_in_executor)).
 
 ## Reasons
-* [aiohttp](https://github.com/KeepSafe/aiohttp) have not https proxy support.
+* [aiohttp](https://github.com/KeepSafe/aiohttp) have no https proxy support.
 
 ## Features
 * Same as requests.
