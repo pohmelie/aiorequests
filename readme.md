@@ -4,6 +4,9 @@
 ## Reasons
 * [aiohttp](https://github.com/KeepSafe/aiohttp) have no https proxy support.
 
+## License
+aiorequests is offered under the WTFPL license.
+
 ## Features
 * Same as requests.
 * Source code is [short and simple](https://github.com/pohmelie/aiorequests/blob/master/aiorequests.py).
