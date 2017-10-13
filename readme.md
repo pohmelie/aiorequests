@@ -19,14 +19,12 @@ import aiorequests
 
 
 async def yoba():
-
     r = await aiorequests.get("https://google.com")
     print(r.status_code)
     print(len(r.content))
 
 
 if __name__ == "__main__":
-
     loop = asyncio.get_event_loop()
     aiorequests.set_async_requests(loop=loop)
     loop.run_until_complete(yoba())
